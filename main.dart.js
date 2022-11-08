@@ -58573,7 +58573,7 @@ case 4:throw A.a(u._)
 case 3:return A.a1(null,r)}})
 return A.a2($async$lF,r)},
 M(a){var s=null
-return A.adv(A.Ok(A.a8v(A.b([A.ac8(B.ap,A.a9t("NauticApp",A.ace(B.eL,80),s,s),B.vw),B.ut,A.acj("assets/logo.png"),B.ut,A.v5(A.a9t("Real-Time GPS Speed, Responsive Magnetic Heading (CoG), Position, Chartplotter, Compass and Logbook Mobile App for Skippers",A.ace(B.eL,25),B.k_,s),s,500),B.Ga,A.ln(s,A.nW(A.v5(A.acj("assets/GooglePlay.png"),80,s),B.cN,s,s,s),B.ab,!1,s,s,s,s,s,s,s,s,s,s,new A.NR(this),s,s,s,s,s,s)],t.F),B.lq),s,s))}}
+return A.adv(A.Ok(A.a8v(A.b([A.ac8(B.ap,A.a9t("NauticApp",A.ace(B.eL,80),s,s),B.vw),B.ut,A.acj("assets/logo.png"),B.ut,A.v5(A.a9t("Real-Time GPS Speed, Responsive Magnetic Heading (CoG), Position, Chartplotter, Compass and Logbook Mobile App for Skippers",A.ace(B.eL,25),B.k_,s),s,500),B.Ga,A.ln(s,A.nW(A.v5(A.acj("assets/GooglePlay.png"),60,s),B.cN,s,s,s),B.ab,!1,s,s,s,s,s,s,s,s,s,s,new A.NR(this),s,s,s,s,s,s)],t.F),B.lq),s,s))}}
 A.NR.prototype={
 $0(){this.a.lF()},
 $S:0}
@@ -62991,9 +62991,9 @@ B.G7=new A.U(1e5,1e5)
 B.G8=new A.U(64,36)
 B.G9=new A.U(1/0,1/0)
 B.jX=new A.hO(0,0,null,null)
+B.Ga=new A.hO(null,100,null,null)
 B.us=new A.hO(null,10,null,null)
 B.ut=new A.hO(null,18,null,null)
-B.Ga=new A.hO(null,50,null,null)
 B.Gb=new A.v9(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.uu=new A.F2(0,0,0,0,0,0,!1,!1,null,0)
 B.MO=new A.oD(3,"hide")
