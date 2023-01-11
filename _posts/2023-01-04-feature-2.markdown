@@ -4,7 +4,5 @@ modal-id: 2
 date: 2023-01-05
 img: cake.png
 alt: image-alt
-project-date: January 2023
-category: NauticApp Features
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Satellite and Night Layers - Satellite mode overlay to take a more detailed look at the marine data on the chart like points of interest such as marinas and anchorages...  Night mode is ideal when is dark and has been carefully designed to be as easy on the eyes as possible. 
 ---

@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 7
+date: 2022-12-30
+img: readings.png
+alt: image-alt
+description: Readings - GPS Active Tracking, view your live position and check your Course Over Ground (COG) and Speed Over Ground (SOG) and Heading instantly, 
+---

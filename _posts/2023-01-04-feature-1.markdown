@@ -4,8 +4,6 @@ modal-id: 1
 date: 2023-01-06
 img: cabin.png
 alt: image-alt
-project-date: January 2023
-category: NauticApp Features
-description: GPS Active Tracking - View your live position on the chart, this allows you to check your Course Over Ground (COG) and Speed Over Ground (SOG) instantly. 
+description: GPS Active Tracking - View your live position on the chart, this allows you to check your Course Over Ground (COG) and Speed Over Ground (SOG) instantly. Get your location on the chart by pressing it, it also has a compass built in.
 ---
 
