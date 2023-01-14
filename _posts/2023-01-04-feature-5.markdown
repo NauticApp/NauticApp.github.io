@@ -4,5 +4,5 @@ modal-id: 5
 date: 2023-01-02
 img: safe.png
 alt: image-alt
-description: Compass - Accurate GPS compass that is easy to use and read featuring Magnetic North, Cardinal direction and Heading. 
+description: Compass - Accurate GPS compass that is easy to use and read featuring Magnetic North, Cardinal Direction and Heading. 
 ---
