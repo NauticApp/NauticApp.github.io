@@ -41,3 +41,5 @@ If you're building a battery-powered Signal K server, power consumption is an im
 **Cost** 
 
 Finally, cost is always a consideration when choosing a microcontroller. Some microcontrollers can be quite expensive, while others are more affordable. It's important to find a microcontroller that meets your needs and fits within your budget.
+
+<br>
