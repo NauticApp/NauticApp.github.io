@@ -1,8 +1,0 @@
----
-layout: default
-modal-id: 
-date: 2023-01-04
-img: circus.png
-alt: image-alt
-description: Waypoints - Drop and position as many waypoints at your convenience. This feature, however, will be upgraded soon, we are aiming to scale it up so that it can give you more information like distance between two points, GPS positioning (i.e., latitude and longitude) and more.    
----

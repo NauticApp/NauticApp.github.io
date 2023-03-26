@@ -1,8 +1,0 @@
----
-layout: default
-modal-id: 4
-date: 2023-01-03
-img: game.png
-alt: image-alt
-description: Weather Forecast - Scroll through the marine weather forecast to view the changing wind speed, direction and weather conditions.
----

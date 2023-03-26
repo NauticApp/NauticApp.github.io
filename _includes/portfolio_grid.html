@@ -2,24 +2,108 @@
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Features</h2>
-        <hr class="">
-      </div>
-    </div>
+          
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"style="width:50%;">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"style="width:100%;">
         </a>
       </div>
       {% endfor %}
     </div>
   </div>
+      <div class="col-lg-12 text-center">
+        <br>
+        <br>
+        <h2>Features</h2>
+        <hr class="">
+  <br>
+  <br>
+      
+  
+  <div style="text-align:center;">
+    <img class="img-responsive" src="img/portfolio/cabin.png" style="width: 10%; height: auto; display:inline-block;">
+    <h3>GPS Active Tracking</h3>
+    <p>View your live position on the chart, which allows you to check your Course Over Ground (COG) and Speed Over Ground (SOG) instantly. Get your location on the chart by pressing it, and it also has a compass built-in.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+
+<div style="text-align:center;">
+  
+    <img class="img-responsive" src="img/portfolio/cake.png" style="width: 10%; height: auto; display:inline-block">
+    
+    <h3>Satellite and Night Layers</h3>
+    <p>Satellite mode overlay to take a more detailed look at the marine data on the chart like points of interest such as marinas and anchorages. Night mode has been carefully designed to be as easy on the eyes as possible at night.</p>
+    <br>
+    <br>
+    <br>
+    <br> 
+  </div>
+</div>
+
+<div style="text-align:center;">  
+    <img class="img-responsive" src="img/portfolio/game.png" style="width: 10%; height: auto; display:inline-block;">
+    <h3>Weather Forecast</h3>
+    <p>A powerful and intuitive feature that lets you easily stay up-to-date with the latest marine weather forecast. With just a few swipes, you can scroll through the forecast and view real-time information on changing wind speed, direction, and weather conditions. This feature is essential for any sailor looking to stay safe and make informed decisions while out on the water. Whether you're a seasoned sailor or just starting out, our app's weather feature will help you navigate with confidence and peace of mind.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+
+<div style="text-align:center;">
+  
+    <img class="img-responsive" src="img/portfolio/safe.png" style="width: 10%; height: auto; display:inline-block">
+    
+    <h3>Compass</h3>
+    <p>Designed to provide you with the most accurate and reliable information possible. With its intuitive interface and easy-to-read display, you'll always know your magnetic north, cardinal direction, and heading, allowing you to navigate with confidence and precision. Whether you're a seasoned sailor or just starting out, our GPS compass is the perfect tool to help you navigate your way on the water.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+
+<div style="text-align:center;"> 
+    <img class="img-responsive" src="img/portfolio/submarine.png" style="width: 10%; height: auto; display:inline-block;"">
+    <h3>Logbook</h3>
+    <p>Effortlessly manage all your passages with just a few clicks. Keep track of your sailing journey by quickly entering, editing, and deleting the logs of all your passages. The logbook feature is designed to simplify the process, saving you time and effort. With automated features, you can easily generate comprehensive reports that capture all the necessary details of your sailing trip. Say goodbye to the traditional logbook and experience the ease and efficiency of our automated logbook system.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+<div style="text-align:center;">
+  
+    <img class="img-responsive" src="img/portfolio/readings.png" style="width: 10%; height: auto; display:inline-block">
+    
+    <h3>Readings</h3>
+    <p>View the live position of your vessel and access important data such as Course Over Ground (COG), Speed Over Ground (SOG), and Heading in real-time. All of these readings are powered by the sensors in your device... </p>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+
+
+
+  <!-- hasta aqui -->
+
+
+
 </section>
+
+

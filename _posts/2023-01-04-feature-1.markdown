@@ -1,9 +1,51 @@
 ---
-layout: default
-modal-id: 1
+layout: post
+modal-id: 1 
+title: "Top 5 Sensors "
 date: 2023-01-06
-img: cabin.png
-alt: image-alt
-description: GPS Active Tracking - View your live position on the chart, this allows you to check your Course Over Ground (COG) and Speed Over Ground (SOG) instantly. Get your location on the chart by pressing it, it also has a compass built in.
+img: emb7.png
+alt: image-alt  
 ---
+ 
+
+
+<br>
+<div align="center"><h3>Integrating sensors into your Signal K server can provide valuable data and enhance your sailing experience. By using the Signal K protocol, a wide variety of sensors can be easily integrated with NauticApp, providing real-time data on navigation, weather, and boat systems. We will discuss the top 5 sensors to consider integrating with NauticApp, providing examples of popular sensors that can be easily connected using Signal K. Whether you're a seasoned sailor or a beginner, adding these sensors can help you make informed decisions and navigate with more confidence.</h3></div>
+
+<br>
+<br>
+
+
+
+
+**Wind Sensors** 
+
+Wind sensors provide data on wind speed and direction, which is important for sailors to make informed decisions about sail trim and course. By integrating wind sensors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting a wind sensor, it's important to consider the range, accuracy, and compatibility with Signal K.
+
+<br>
+
+**Battery monitors** 
+
+These provide information on the state of your boat's batteries, including voltage, current, and remaining capacity. By integrating battery monitors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting a battery monitor, it's important to consider the accuracy, compatibility with Signal K, and the ability to connect to your boat's battery system.
+
+<br>
+
+**Tank Level Sensors** 
+
+Water and fuel tank sensors provide information on the level and remaining capacity of your boat's water and fuel tanks. By integrating these sensors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting water and fuel tank sensors, it's important to consider the compatibility with Signal K, the type of tank (e.g. plastic, metal), and the measurement range.
+
+
+<br>
+
+**Temperature and Humidity Sensors** 
+
+Explain how temperature and humidity sensors can be useful for monitoring the interior conditions of a boat. Provide examples of popular temperature and humidity sensors that can be integrated with NauticApp through Signal K.
+
+<br>
+
+**Depth Sensors** 
+
+This kind of sensors provide information on water depth, helping sailors navigate safely and avoid running aground. When selecting a depth sensor, it's important to consider the measurement range, accuracy, and compatibility with Signal K.
+
+
 

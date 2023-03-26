@@ -1,8 +1,0 @@
----
-layout: default
-modal-id: 6
-date: 2023-01-01
-img: submarine.png
-alt: image-alt
-description: Logbook -  Entry, edit and delete the logs of all your passages. Writing the logbook is now easier, faster and automated!
----

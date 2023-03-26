@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-01-11T19:46:02+00:00</updated>
+  <updated>2023-03-26T10:04:11+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,12 +20,207 @@
   
   
     <entry>
-      <title type="html">Feature 1</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 1" />
+      <title type="html"></title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="" />
+      <published>2023-01-06T00:00:00+00:00</published>
+      <updated>2023-01-06T00:00:00+00:00</updated>
+      <id>http://localhost:4000/feature-3</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;If you are looking to improve your sailing experience and take advantage of the latest technology, setting up a Signal K server onboard your sailboat is a great place to start. With a Signal K server, you can connect your boat&apos;s various sensors and instruments to a central system, allowing you to monitor and control everything from a single interface. In this post, we&apos;ll provide a step-by-step guide on how to set up a Signal K server onboard your sailboat.&lt;/h3&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Signal K provides a standardised data model that simplifies the process of integrating a wide range of sensors and devices with NauticApp. By using the Signal K protocol, embedded systems can communicate with NauticApp using a common data format, enabling easy integration with a variety of sensors and devices such as engine sensors, wind sensors, depth sensors, battery monitors, level sensors… etc This makes it possible to display and use this data within NauticApp, providing sailors with valuable information for navigation, sail trim, and power management.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://signalk.org/&quot;&gt;The Signal K&lt;/a&gt; is an open-source standard for marine data exchange that enables different devices on a boat to share information in a standardized format. It defines a common language for marine data that can be easily understood and used by any device or software that supports the standard.&lt;/p&gt;
+
+&lt;p&gt;Signal K is useful for integrating marine data because it allows for seamless communication between different systems on a boat, such as sensors, navigation systems, and other devices. With Signal K, marine data can be exchanged in real-time and shared across multiple devices and software applications.&lt;/p&gt;
+
+&lt;p&gt;Signal K is designed to be flexible and scalable, which means that it can accommodate a wide range of data types and devices, from basic sensors to complex systems. Additionally, because Signal K is an open standard, it is accessible to anyone and can be freely implemented in a variety of applications and platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Signal K data model is a hierarchical structure that defines the various types of data that can be exchanged between devices and systems on a boat. At the top level, the data model is organized into categories such as Navigation, Environment, and System, each of which contains a set of standard data points that are defined by the Signal K specification.&lt;/p&gt;
+
+&lt;p&gt;Within each category, the data model is further organized into subcategories and data points, with each data point containing information about a specific aspect of the vessel’s operation. For example, the Navigation category might include subcategories for Position, Course, and Speed, with each subcategory containing data points such as Latitude, Longitude, True Heading, and Speed Over Ground.&lt;/p&gt;
+
+&lt;p&gt;Signal K works by defining a common language that devices and software applications can use to communicate with each other. Each device or system on the boat can be configured to send and receive data in the Signal K format, which allows other devices and software to easily understand and interpret the data.&lt;/p&gt;
+
+&lt;p&gt;When a device or system sends data in the Signal K format, it includes information about the data point being transmitted, such as the category, subcategory, and data point name. This makes it easy for other devices and software to identify and interpret the data, regardless of the device or software manufacturer.&lt;/p&gt;
+
+&lt;p&gt;Signal K differs from other marine data protocols in several ways. First, it is designed to be an open standard, which means that it is accessible to anyone and can be freely implemented in a variety of applications and platforms. Second, Signal K is designed to be flexible and scalable, which allows it to accommodate a wide range of data types and devices, from basic sensors to complex systems. Finally, Signal K is designed to be extensible, which means that new data points and categories can be added to the data model as needed to support new devices and applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting Signal K&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first step in setting up a Signal K server is to choose your hardware and software. For hardware, you’ll need a computer or single-board computer that can run the Signal K software. The Raspberry Pi is a popular choice for Signal K servers, but any computer that can run Node.js should work.&lt;/p&gt;
+
+&lt;p&gt;For software, you’ll need to install the Signal K server software on your chosen computer. You can download the Signal K server software from the Signal K website, and installation instructions are provided in the documentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connect Your Sensors and Instruments&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have your hardware and software set up, the next step is to connect your sensors and instruments to the Signal K server. Signal K is designed to be a plug-and-play system, so most sensors and instruments should be compatible out of the box. To connect your sensors and instruments, you’ll need to use standard NMEA 0183 or NMEA 2000 connections.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Configure Your Signal K Server&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With your hardware and sensors connected, the next step is to configure your Signal K server. This will involve setting up your Signal K network, configuring your sensors and instruments, and setting up any custom alerts or notifications you want to receive.&lt;/p&gt;
+
+&lt;p&gt;The Signal K server software provides a web interface that you can use to configure your system. You can access this interface by navigating to http://localhost:3000 (assuming you’re running the server on the same computer you’re using to access the web interface). From here, you can configure your system using the menus and settings provided.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connecting Signal K to NauticApp&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Connecting Signal K to NauticApp is a relatively straightforward process that involves configuring both applications to communicate with each other over a network connection.&lt;/p&gt;
+
+&lt;p&gt;Configure Signal K to broadcast data over the network. By default, Signal K is configured to broadcast data on your local network using the mDNS protocol. However, you may need to adjust the network settings to ensure that the data is being broadcast correctly. Consult the Signal K documentation for guidance on configuring network settings.&lt;/p&gt;
+
+&lt;p&gt;Install NauticApp on your mobile device. NauticApp is only available for Android (for now), and can be downloaded from the  Google Play.&lt;/p&gt;
+
+&lt;p&gt;Open NauticApp and tap the Signal K icon on the top right of the screen. Select “Data Sources” and then “Signal K” to configure the connection.&lt;/p&gt;
+
+&lt;p&gt;Enter the network address for your Signal K server. This will typically be the IP address of the computer or server running Signal K. If you’re unsure of the IP address, you can use a network scanning tool to find it.&lt;/p&gt;
+
+&lt;p&gt;Configure the data points that you want NauticApp to display. From the “Data Sources” screen, select the data points that you want to display in NauticApp. You can choose from a variety of data points, including position, speed, and weather information.&lt;/p&gt;
+
+&lt;p&gt;Save your settings and exit the settings screen. NauticApp should now be connected to your Signal K server and displaying the selected data points.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">If you are looking to improve your sailing experience and take advantage of the latest technology, setting up a Signal K server onboard your sailboat is a great place to start. With a Signal K server, you can connect your boat&apos;s various sensors and instruments to a central system, allowing you to monitor and control everything from a single interface. In this post, we&apos;ll provide a step-by-step guide on how to set up a Signal K server onboard your sailboat.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Connecting a Microcontroller to Your Signal K Server</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Connecting a Microcontroller to Your Signal K Server" />
+      <published>2023-01-06T00:00:00+00:00</published>
+      <updated>2023-01-06T00:00:00+00:00</updated>
+      <id>http://localhost:4000/feature-2</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Microcontrollers are the brains of embedded systems, and are responsible for collecting data from sensors and communicating that data to other devices or servers. When it comes to building a Signal K server, choosing the right microcontroller is crucial, we&apos;ll take a look at some of the key factors to consider when choosing a microcontroller for your Signal K server.&lt;/h3&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Processing Power&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the most important factors to consider when choosing a microcontroller for your Signal K server is processing power. The more processing power a microcontroller has, the more data it can handle and the faster it can communicate with other devices. Some microcontrollers that are commonly used for Signal K servers include the Raspberry Pi and Arduino boards.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input/Output Pins&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another important factor to consider when choosing a microcontroller for your Signal K server is the number of input/output (I/O) pins it has. These pins are used to connect sensors and other devices to the microcontroller, so you’ll need to make sure that the microcontroller you choose has enough pins to support all of the sensors and devices you plan to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connectivity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Signal K servers rely on connectivity to communicate with other devices and servers. When choosing a microcontroller for your Signal K server, it’s important to consider what types of connectivity options are available. Some microcontrollers, such as the Raspberry Pi, come with built-in Wi-Fi and Ethernet connectivity, while others may require additional hardware or modules to connect to the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Power Consumption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re building a battery-powered Signal K server, power consumption is an important factor to consider when choosing a microcontroller. Some microcontrollers are more power-efficient than others, which can help to extend battery life and reduce power consumption.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cost&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, cost is always a consideration when choosing a microcontroller. Some microcontrollers can be quite expensive, while others are more affordable. It’s important to find a microcontroller that meets your needs and fits within your budget.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Microcontrollers are the brains of embedded systems, and are responsible for collecting data from sensors and communicating that data to other devices or servers. When it comes to building a Signal K server, choosing the right microcontroller is crucial, we&apos;ll take a look at some of the key factors to consider when choosing a microcontroller for your Signal K server.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Top 5 Sensors</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Top 5 Sensors " />
       <published>2023-01-06T00:00:00+00:00</published>
       <updated>2023-01-06T00:00:00+00:00</updated>
       <id>http://localhost:4000/feature-1</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Integrating sensors into your Signal K server can provide valuable data and enhance your sailing experience. By using the Signal K protocol, a wide variety of sensors can be easily integrated with NauticApp, providing real-time data on navigation, weather, and boat systems. We will discuss the top 5 sensors to consider integrating with NauticApp, providing examples of popular sensors that can be easily connected using Signal K. Whether you&apos;re a seasoned sailor or a beginner, adding these sensors can help you make informed decisions and navigate with more confidence.&lt;/h3&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wind Sensors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wind sensors provide data on wind speed and direction, which is important for sailors to make informed decisions about sail trim and course. By integrating wind sensors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting a wind sensor, it’s important to consider the range, accuracy, and compatibility with Signal K.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Battery monitors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These provide information on the state of your boat’s batteries, including voltage, current, and remaining capacity. By integrating battery monitors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting a battery monitor, it’s important to consider the accuracy, compatibility with Signal K, and the ability to connect to your boat’s battery system.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tank Level Sensors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Water and fuel tank sensors provide information on the level and remaining capacity of your boat’s water and fuel tanks. By integrating these sensors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting water and fuel tank sensors, it’s important to consider the compatibility with Signal K, the type of tank (e.g. plastic, metal), and the measurement range.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Temperature and Humidity Sensors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Explain how temperature and humidity sensors can be useful for monitoring the interior conditions of a boat. Provide examples of popular temperature and humidity sensors that can be integrated with NauticApp through Signal K.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Depth Sensors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This kind of sensors provide information on water depth, helping sailors navigate safely and avoid running aground. When selecting a depth sensor, it’s important to consider the measurement range, accuracy, and compatibility with Signal K.&lt;/p&gt;</content>
 
       
       
@@ -44,167 +239,7 @@
       
 
       
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Feature 2</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 2" />
-      <published>2023-01-05T00:00:00+00:00</published>
-      <updated>2023-01-05T00:00:00+00:00</updated>
-      <id>http://localhost:4000/feature-2</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Feature 4</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 4" />
-      <published>2023-01-03T00:00:00+00:00</published>
-      <updated>2023-01-03T00:00:00+00:00</updated>
-      <id>http://localhost:4000/feature-4</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Feature 5</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 5" />
-      <published>2023-01-02T00:00:00+00:00</published>
-      <updated>2023-01-02T00:00:00+00:00</updated>
-      <id>http://localhost:4000/feature-5</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Feature 6</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 6" />
-      <published>2023-01-01T00:00:00+00:00</published>
-      <updated>2023-01-01T00:00:00+00:00</updated>
-      <id>http://localhost:4000/feature-6</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Feature 7</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Feature 7" />
-      <published>2022-12-30T00:00:00+00:00</published>
-      <updated>2022-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/feature-7</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
+        <summary type="html">Integrating sensors into your Signal K server can provide valuable data and enhance your sailing experience. By using the Signal K protocol, a wide variety of sensors can be easily integrated with NauticApp, providing real-time data on navigation, weather, and boat systems. We will discuss the top 5 sensors to consider integrating with NauticApp, providing examples of popular sensors that can be easily connected using Signal K. Whether you&apos;re a seasoned sailor or a beginner, adding these sensors can help you make informed decisions and navigate with more confidence.</summary>
       
 
       
