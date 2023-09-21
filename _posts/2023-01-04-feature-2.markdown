@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 2
-title: ""
+title: "NautiGuard BilgeMonitor: Your Boat's Guardian"
 date: 2023-01-06
 img: emb4.png
 alt: image-alt
@@ -9,37 +9,41 @@ categories: category1 category2
 ---
 
 <br>
-<div align="center"><h3>Microcontrollers are the brains of embedded systems, and are responsible for collecting data from sensors and communicating that data to other devices or servers. When it comes to building a Signal K server, choosing the right microcontroller is crucial, we'll take a look at some of the key factors to consider when choosing a microcontroller for your Signal K server.</h3></div>
+<div align="center"><h3>This ingenious device is your boat's guardian against unwanted water intrusions. Let's explore what the BilgeMonitor has to offer:</h3></div>
 
 <br>
 <br>
 
-**Processing Power**
+## BilgeMonitor: Keeping Your Boat Dry
+<br>
 
-One of the most important factors to consider when choosing a microcontroller for your Signal K server is processing power. The more processing power a microcontroller has, the more data it can handle and the faster it can communicate with other devices. Some microcontrollers that are commonly used for Signal K servers include the Raspberry Pi and Arduino boards.
+
+ **Real-Time Water Level Tracking**
+<br>
+
+
+Say goodbye to worries about water accumulating in your boat's bilge. The BilgeMonitor provides real-time water level tracking, keeping you informed about any rising water levels, no matter where you are.
 
 <br>
 
-**Input/Output Pins** 
 
-Another important factor to consider when choosing a microcontroller for your Signal K server is the number of input/output (I/O) pins it has. These pins are used to connect sensors and other devices to the microcontroller, so you'll need to make sure that the microcontroller you choose has enough pins to support all of the sensors and devices you plan to use.
+ **Automatic Bilge Pump Control**
 
-<br>
-
-**Connectivity**
-
-Signal K servers rely on connectivity to communicate with other devices and servers. When choosing a microcontroller for your Signal K server, it's important to consider what types of connectivity options are available. Some microcontrollers, such as the Raspberry Pi, come with built-in Wi-Fi and Ethernet connectivity, while others may require additional hardware or modules to connect to the internet.
+When the BilgeMonitor detects an elevated water level, it takes action swiftly. It automatically activates the bilge pump, sparing you the hassle of manual intervention and ensuring your vessel stays dry.
 
 <br>
 
-**Power Consumption** 
+ **Remote Access via NauticApp**
 
-If you're building a battery-powered Signal K server, power consumption is an important factor to consider when choosing a microcontroller. Some microcontrollers are more power-efficient than others, which can help to extend battery life and reduce power consumption.
+You're always connected to your boat, thanks to NautiGuard's seamless integration with NauticApp. Monitor your bilge remotely, receive alerts, and take control from anywhere in the world using your smartphone or tablet.
 
 <br>
+ 
+ **Peace of Mind, Always**
 
-**Cost** 
+With the BilgeMonitor on board, you can enjoy your boating adventures with peace of mind. Whether you're at the helm or miles away, your boat's safety is in good hands.
 
-Finally, cost is always a consideration when choosing a microcontroller. Some microcontrollers can be quite expensive, while others are more affordable. It's important to find a microcontroller that meets your needs and fits within your budget.
+Stay tuned for more NautiGuard projects, each designed to enhance your boating experience. The BilgeMonitor is just the beginning of a new era of boating safety and convenience. Happy sailing!
+
 
 <br>
