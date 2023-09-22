@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-09-21T16:25:46+01:00</updated>
+  <updated>2023-09-22T11:07:52+01:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,57 +20,38 @@
   
   
     <entry>
-      <title type="html">Smart Boating and NautiGuard: A New Era of Boating Innovation</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Smart Boating and NautiGuard: A New Era of Boating Innovation" />
+      <title type="html">Smart Boating: A New Era of Boating Innovation</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Smart Boating: A New Era of Boating Innovation" />
       <published>2023-01-06T00:00:00+00:00</published>
       <updated>2023-01-06T00:00:00+00:00</updated>
       <id>http://localhost:4000/feature-3</id>
       <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Welcome to NauticApp, where innovation meets the high seas! In this post, we&apos;re excited to introduce you to two of our game-changing features: Smart Boating and NautiGuard.&lt;/h3&gt;&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Welcome to NauticApp, where innovation meets the high seas! We are excited to introduce you to two of our game-changing features: Smart Boating.&lt;/h3&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
+&lt;p&gt;NauticApp already empowers you with a comprehensive suite of features designed to enhance your sailing experience. With Real-Time GPS Tracking, you will always know your precise location, speed, and heading, ensuring you stay on course with unwavering confidence. Our Responsive Magnetic Heading (CoG) feature offers a responsive magnetic heading indicator, making navigation a breeze and helping keep you on the right path. Explore the open waters effortlessly with our intuitive Position and Chartplotter, and stay ahead of changing conditions with our Weather Full Forecast tool, enabling you to plan your journey with utmost confidence. Plus, our Compass and Logbook keep a digital record of your voyages and provide precise direction, adding convenience and reliability to your sailing adventures.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Now, let’s dive into the exciting world of Smart Boating within NauticApp.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Smart Boating: Your Ultimate Boating Companion&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Smart Boating is the heart of NauticApp, revolutionizing the way you experience life on the water. It’s your ultimate boating companion, seamlessly integrating cutting-edge technology into your maritime adventures. Here’s what Smart Boating brings to your fingertips:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Real-Time GPS Tracking:&lt;/strong&gt; Stay on course with precision and confidence using our real-time GPS tracking feature. Know your exact location, speed, and heading at all times.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Responsive Magnetic Heading (CoG):&lt;/strong&gt; Navigate with ease using our responsive magnetic heading indicator, ensuring you’re always on the right path.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Position and Chartplotter:&lt;/strong&gt; Explore the open waters with our intuitive position and chartplotter, powered by the mapbox_gl Flutter plugin.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Weather Full Forecast:&lt;/strong&gt; Plan your journey with confidence, thanks to our weather full forecast powered by OpenWeather. Stay ahead of changing conditions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Compass and Logbook:&lt;/strong&gt; Keep a digital log of your voyages and rely on our precise compass for accurate direction.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Marine IoT Integration:&lt;/strong&gt; Connect your microcontrollers and sensors to NauticApp for seamless data integration. Monitor, control, and optimize your boat’s systems like never before.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Marine Engineering Hub:&lt;/strong&gt; Troubleshoot engine issues, maintain schedules, manage spare parts, and monitor engine performance all in one dedicated hub.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Safety Checklist:&lt;/strong&gt; Ensure your vessel’s safety with a comprehensive checklist, providing peace of mind for every journey.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Smart Boating&lt;/em&gt; is the heart of NauticApp, revolutionizing the way you experience life on the water. It is your ultimate boating companion, seamlessly integrating cutting-edge technology into your maritime adventures, &lt;em&gt;Smart Boating&lt;/em&gt; brings Marine IoT Integration to your fingertips, connect your microcontrollers and sensors to NauticApp for seamless data integration. Monitor, control, and optimize your boat’s systems like never before and very cheap!.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;NautiGuard: Unleashing IoT Potential&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;NautiGuard is where the future of boating innovation unfolds. It’s a series of small IoT projects, each designed to enhance your boating experience and integrate seamlessly with NauticApp. Here’s a glimpse of what NautiGuard has in store:&lt;/p&gt;
+&lt;p&gt;NautiGuard is where the future of boating innovation unfolds. It’s a series of small IoT implementations, each designed to enhance your boating experience and integrate seamlessly with NauticApp. Here’s a glimpse of what NautiGuard has in store:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;BilgeMonitor:&lt;/strong&gt; Already discussed in detail in our previous post, BilgeMonitor keeps your boat dry by monitoring water levels and automatically activating the bilge pump when needed.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;BilgeMonitor:&lt;/strong&gt; Already discussed in detail in this other post, BilgeMonitor keeps your boat dry by monitoring water levels and automatically activating the bilge pump when needed.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Anemometer (Wind Sensor):&lt;/strong&gt; Stay ahead of changing wind conditions with real-time wind speed and direction data.&lt;/p&gt;
@@ -89,7 +70,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Stay tuned for more in-depth discussions on each NautiGuard project, and get ready to elevate your boating experience with NauticApp’s Smart Boating and NautiGuard features. The future of boating has arrived.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stay tuned for more in-depth discussions on each NautiGuard project, and get ready to elevate your boating experience with NauticApp’s Smart Boating and NautiGuard features. The future of boating has arrived.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content>
 
@@ -110,7 +93,7 @@
       
 
       
-        <summary type="html">Welcome to NauticApp, where innovation meets the high seas! In this post, we&apos;re excited to introduce you to two of our game-changing features: Smart Boating and NautiGuard.</summary>
+        <summary type="html">Welcome to NauticApp, where innovation meets the high seas! We are excited to introduce you to two of our game-changing features: Smart Boating.</summary>
       
 
       
@@ -184,71 +167,79 @@
     </entry>
   
     <entry>
-      <title type="html">borrar</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="borrar" />
+      <title type="html">Marine Engineering Monitoring: Elevate Your Boat’s Performance</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Marine Engineering Monitoring: Elevate Your Boat&apos;s Performance" />
       <published>2023-01-06T00:00:00+00:00</published>
       <updated>2023-01-06T00:00:00+00:00</updated>
       <id>http://localhost:4000/feature-1</id>
       <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Welcome to NauticApp, where innovation meets the high seas! In this post, we&apos;re excited to introduce you to two of our game-changing features: Smart Boating and NautiGuard.&lt;/h3&gt;&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;Set sail into the future of boating with NauticApp&apos;s Marine Engineering Monitoring feature. This groundbreaking addition takes your boat&apos;s performance and safety to the next level. Let&apos;s explore what Marine Engineering Monitoring has in store:&lt;/h3&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Smart Boating: Your Ultimate Boating Companion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Real-Time Engine Data&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Smart Boating is the heart of NauticApp, revolutionizing the way you experience life on the water. It’s your ultimate boating companion, seamlessly integrating cutting-edge technology into your maritime adventures. Here’s what Smart Boating brings to your fingertips:&lt;/p&gt;
+&lt;p&gt;Keep a watchful eye on your boat’s heart - the engine. Marine Engineering Monitoring provides real-time data on vital engine statistics. From RPM to temperature and oil pressure, you’re always informed about your engine’s performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proactive Maintenance Schedules&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Say goodbye to guesswork when it comes to engine maintenance. NauticApp’s intelligent system creates proactive maintenance schedules based on real-time data and manufacturer recommendations. Keep your engine running smoothly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fuel Consumption Insights&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Optimize your fuel consumption with detailed insights. Marine Engineering Monitoring tracks fuel usage and efficiency, helping you make informed decisions that save both fuel and money.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Diagnose Engine Health&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t wait for issues to become problems. With Marine Engineering Monitoring, you can diagnose engine health early. Receive alerts for potential issues and take action before they escalate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IoT Sensor Integration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Connect your microcontrollers and sensors to enhance your boating experience. Monitor additional aspects of your boat’s systems, ensuring everything runs seamlessly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In-Depth Safety Measures&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Safety is paramount on the water. Marine Engineering Monitoring includes safety sensors to detect fire, gas leaks, and other potential hazards. Enjoy peace of mind knowing your boat is equipped with advanced safety features.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For older marine engines, it is crucial to select sensors that align with the engine’s design and technology. While contemporary engines often come equipped with integrated sensors and electronic control systems, their older counterparts may lack such features. Below, we provide a list of common sensors that can be retrofitted to older marine engines to enhance their monitoring capabilities. Please note that additional models and detailed information will be updated soon:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Real-Time GPS Tracking:&lt;/strong&gt; Stay on course with precision and confidence using our real-time GPS tracking feature. Know your exact location, speed, and heading at all times.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Temperature Sensor (Coolant Temperature):&lt;/strong&gt; This sensor measures the engine’s coolant temperature and is typically installed within the coolant system. It offers valuable insights into engine temperature, aiding in the prevention of overheating.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Responsive Magnetic Heading (CoG):&lt;/strong&gt; Navigate with ease using our responsive magnetic heading indicator, ensuring you’re always on the right path.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Oil Pressure Sensor:&lt;/strong&gt; The oil pressure sensor actively monitors the engine’s oil pressure, identifying low oil pressure, a critical factor for engine health. It is commonly situated near the oil pump or within the oil system.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Position and Chartplotter:&lt;/strong&gt; Explore the open waters with our intuitive position and chartplotter, powered by the mapbox_gl Flutter plugin.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Tachometer (RPM Sensor):&lt;/strong&gt; Although not a conventional sensor, a tachometer can be added to monitor engine RPM (revolutions per minute). This is essential for maintaining the engine within its optimal operational range.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Weather Full Forecast:&lt;/strong&gt; Plan your journey with confidence, thanks to our weather full forecast powered by OpenWeather. Stay ahead of changing conditions.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Fuel Flow Sensor:&lt;/strong&gt; This sensor gauges the rate of fuel consumption, allowing boat owners to track fuel efficiency and detect unusual fuel consumption patterns.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Compass and Logbook:&lt;/strong&gt; Keep a digital log of your voyages and rely on our precise compass for accurate direction.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Exhaust Gas Temperature (EGT) Sensor:&lt;/strong&gt; EGT sensors keep a close watch on exhaust gas temperatures, aiding in the optimization of fuel-to-air ratios and the detection of issues like excessive exhaust temperatures.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Marine IoT Integration:&lt;/strong&gt; Connect your microcontrollers and sensors to NauticApp for seamless data integration. Monitor, control, and optimize your boat’s systems like never before.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Voltage and Current Sensors:&lt;/strong&gt; These sensors oversee the engine’s electrical system, ensuring it operates within safe voltage and current parameters. They prove especially vital for older engines with more basic electrical setups.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Marine Engineering Hub:&lt;/strong&gt; Troubleshoot engine issues, maintain schedules, manage spare parts, and monitor engine performance all in one dedicated hub.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Pressure Sensors (e.g., Oil Pressure, Fuel Pressure):&lt;/strong&gt; Depending on the engine’s configuration, pressure sensors may be necessary to monitor various systems such as oil pressure or fuel pressure.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Safety Checklist:&lt;/strong&gt; Ensure your vessel’s safety with a comprehensive checklist, providing peace of mind for every journey.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Engine Hours Counter:&lt;/strong&gt; Although not a traditional sensor, an engine hours counter plays a pivotal role in tracking engine usage. It assists in scheduling maintenance based on engine runtime.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Thermocouples:&lt;/strong&gt; These sensors are capable of measuring temperatures at various points within the engine, including exhaust and cylinder temperatures.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Safety Sensors:&lt;/strong&gt; Older engines can benefit from safety sensors designed to detect issues like engine overheating or gas leaks. These sensors can trigger alarms or shutdown procedures, averting potential damage or accidents.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Battery monitors&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;These provide information on the state of your boat’s batteries, including voltage, current, and remaining capacity. By integrating battery monitors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting a battery monitor, it’s important to consider the accuracy, compatibility with Signal K, and the ability to connect to your boat’s battery system.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tank Level Sensors&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Water and fuel tank sensors provide information on the level and remaining capacity of your boat’s water and fuel tanks. By integrating these sensors with Signal K, this data can be easily transmitted and displayed in real-time on NauticApp. When selecting water and fuel tank sensors, it’s important to consider the compatibility with Signal K, the type of tank (e.g. plastic, metal), and the measurement range.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Temperature and Humidity Sensors&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Explain how temperature and humidity sensors can be useful for monitoring the interior conditions of a boat. Provide examples of popular temperature and humidity sensors that can be integrated with NauticApp through Signal K.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Depth Sensors&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This kind of sensors provide information on water depth, helping sailors navigate safely and avoid running aground. When selecting a depth sensor, it’s important to consider the measurement range, accuracy, and compatibility with Signal K.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content>
 
@@ -269,7 +260,7 @@
       
 
       
-        <summary type="html">Welcome to NauticApp, where innovation meets the high seas! In this post, we&apos;re excited to introduce you to two of our game-changing features: Smart Boating and NautiGuard.</summary>
+        <summary type="html">Set sail into the future of boating with NauticApp&apos;s Marine Engineering Monitoring feature. This groundbreaking addition takes your boat&apos;s performance and safety to the next level. Let&apos;s explore what Marine Engineering Monitoring has in store:</summary>
       
 
       

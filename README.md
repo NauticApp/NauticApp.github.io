@@ -2,4 +2,4 @@
 
 bundle exec jekyll serve
 
-and for pushing it does not neet to build or anything, just aadd . commid and push
+and for pushing it does not need to be built or anything, just add . committed and pushed
