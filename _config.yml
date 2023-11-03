@@ -2,9 +2,10 @@
 title: NauticApp
 email: nauticapplication@gmail.com
 url: https://github.com/nauticapp
-description: "Real-Time GPS Tracking and Speed, Responsive Magnetic Heading (CoG), Position, Chartplotter (with automatically updated chart data), Weather Full Forecast, Compass and Logbook.."
+description: "Marine Engineering Hub for engine troubleshooting assistance, maintenance schedules, and spare part inventory. NautiGuard offers a collection of marine IoT projects focusing on safety and monitoring, including Real-Time GPS Tracking and Speed, Responsive Magnetic Heading (CoG), Position, Weather Full Forecast, Compass, and Logbook with automatically updated chart data."
+
 keywords: "Sailing Tool, GPS Tracking, Weather Forcast, Logbook and more..."
-skills: "Real-Time GPS Tracking and Speed, Responsive Magnetic Heading (CoG), Position, Chartplotter (with automatically updated chart data), Weather Full Forecast, Compass and Logbook"
+skills: "Marine Engineering Hub for engine troubleshooting assistance, maintenance schedules, and spare part inventory. NautiGuard offers a collection of marine IoT projects focusing on safety and monitoring, including Real-Time GPS Tracking and Speed, Responsive Magnetic Heading (CoG), Position, Weather Full Forecast, Compass, and Logbook with automatically updated chart data."
 # Google webmaster tools
 google_verify:
 
@@ -31,9 +32,9 @@ color:
 # Footer settings
 footer:
   copyright: NauticApp
-  location: UK
+  location: 
   social: All-In-One Sailing Tool
-  credits: EU
+  credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -47,10 +48,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: All UK coverd
+
 
 # Credits content
-credits: 'Meds'
+
 
 # Build settings
 markdown: kramdown

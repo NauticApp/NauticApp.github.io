@@ -1,109 +1,83 @@
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-  <div class="container portfolio-flex-grid">
-    <div class="row">
-          
-    <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"style="width:50%;">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NauticApp Features</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css"> <!-- Add a link to your CSS file for custom styling -->
+    <style>
+        /* Add any custom styles here */
+        .feature-icon {
+            font-size: 5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <hr class="section-divider">
+
+            <div class="feature">
+                <i class="fas fa-screwdriver-wrench feature-icon"></i>
+                <h3 class="feature-title">Marine Engineering Hub</h3>
+                <p class="feature-description">Explore a comprehensive resource for engine maintenance and performance. Access troubleshooting assistance, maintenance schedules, spare part inventory, and real-time engine monitoring to enhance safety and efficiency on the water.</p>
             </div>
+          </br></br></br>
+
+          <div class="feature">
+            <i class="fas fa-rss feature-icon"></i>
+            <h3 class="feature-title">NautiGuard</h3>
+            <p class="feature-description">Experience a collection of marine IoT projects focusing on safety and monitoring. Customize solutions with open-source projects like BilgeMonitor, EngineMonitor, Weather Station, and SafetyMonitor for a tailored boating experience.</p>
+            <p class="feature-description">Learn more about <a href="https://github.com/NauticApp/BilgeMonitor" target="_blank">BilgeMonitor</a> in the <a href="https://github.com/NauticApp/BilgeMonitor/blob/main/README.md" target="_blank">README</a>. BilgeMonitor is a vital component of NautiGuard, designed to monitor bilge conditions on your boat. It provides real-time data on water levels, helping to prevent potential flooding or damage. By connecting BilgeMonitor to NauticApp, you can conveniently access and manage this crucial information. Stay tuned for more innovative projects like BilgeMonitor that will further enhance your boating experience!</p>
+        </div>
+        
+
+          </br></br></br>
+
+            <div class="feature">
+                <i class="fas fa-wind feature-icon"></i>
+                <h3 class="feature-title">Weather Forecast</h3>
+                <p class="feature-description">Stay informed with the latest marine weather forecast. Access real-time information on changing wind speed, direction, and weather conditions, essential for safe navigation and informed decision-making on the water.</p>
+            </div>
+          </br></br></br>
+            <div class="feature">
+                <i class="fas fa-compass feature-icon"></i>
+                <h3 class="feature-title">Responsive Magnetic Heading (CoG)</h3>
+                <p class="feature-description">The app boasts a Responsive Magnetic Heading (CoG) feature, providing essential information for accurate navigation.</p>
+            </div>
+          
+          
+          </br></br></br>
+
+            <div class="feature">
+              <i class="fa-solid fa-gauge-high feature-icon"></i>
+              <h3 class="feature-title">Readings</h3>
+              <p class="feature-description">View the live position of your vessel and access important data such as Course Over Ground (COG), Speed Over Ground (SOG), and Heading in real-time. All of these readings are powered by the sensors in your device..</p>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"style="width:100%;">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-      <div class="col-lg-12 text-center">
-        <br>
-        <br>
-        <h2>Features</h2>
-        <hr class="">
-  <br>
-  <br>
-      
-  
-  <div style="text-align:center;">
-    <img class="img-responsive" src="img/portfolio/cabin.png" style="width: 10%; height: auto; display:inline-block;">
-    <h3>GPS Active Tracking</h3>
-    <p>View your live position on the chart, which allows you to check your Course Over Ground (COG) and Speed Over Ground (SOG) instantly. Get your location on the chart by pressing it, and it also has a compass built-in.</p>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
 
 
-<div style="text-align:center;">
-  
-    <img class="img-responsive" src="img/portfolio/cake.png" style="width: 10%; height: auto; display:inline-block">
-    
-    <h3>Satellite and Night Layers</h3>
-    <p>Satellite mode overlay to take a more detailed look at the marine data on the chart like points of interest such as marinas and anchorages. Night mode has been carefully designed to be as easy on the eyes as possible at night.</p>
-    <br>
-    <br>
-    <br>
-    <br> 
-  </div>
-</div>
-
-<div style="text-align:center;">  
-    <img class="img-responsive" src="img/portfolio/game.png" style="width: 10%; height: auto; display:inline-block;">
-    <h3>Weather Forecast</h3>
-    <p>A powerful and intuitive feature that lets you easily stay up-to-date with the latest marine weather forecast. With just a few swipes, you can scroll through the forecast and view real-time information on changing wind speed, direction, and weather conditions. This feature is essential for any sailor looking to stay safe and make informed decisions while out on the water. Whether you're a seasoned sailor or just starting out, our app's weather feature will help you navigate with confidence and peace of mind.</p>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
+          </br></br></br>
 
 
-<div style="text-align:center;">
-  
-    <img class="img-responsive" src="img/portfolio/safe.png" style="width: 10%; height: auto; display:inline-block">
-    
-    <h3>Compass</h3>
-    <p>Designed to provide you with the most accurate and reliable information possible. With its intuitive interface and easy-to-read display, you'll always know your magnetic north, cardinal direction, and heading, allowing you to navigate with confidence and precision. Whether you're a seasoned sailor or just starting out, our GPS compass is the perfect tool to help you navigate your way on the water.</p>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
+            <div class="feature">
+                <i class="fa-brands fa-readme feature-icon"></i>
+                <h3 class="feature-title">Logbook</h3>
+                <p class="feature-description">The Logbook feature allows users to maintain detailed records of their boating activities, including position, speed, and personalized comments.</p>
+            </div>
 
+        </div>
+    </section>
 
-<div style="text-align:center;"> 
-    <img class="img-responsive" src="img/portfolio/submarine.png" style="width: 10%; height: auto; display:inline-block;"">
-    <h3>Logbook</h3>
-    <p>Effortlessly manage all your passages with just a few clicks. Keep track of your sailing journey by quickly entering, editing, and deleting the logs of all your passages. The logbook feature is designed to simplify the process, saving you time and effort. With automated features, you can easily generate comprehensive reports that capture all the necessary details of your sailing trip. Say goodbye to the traditional logbook and experience the ease and efficiency of our automated logbook system.</p>
-    <br>
-    <br>
-    <br>
-    <br>
-</div>
+    <!-- Add your custom CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
 
-<div style="text-align:center;">
-  
-    <img class="img-responsive" src="img/portfolio/readings.png" style="width: 10%; height: auto; display:inline-block">
-    
-    <h3>Readings</h3>
-    <p>View the live position of your vessel and access important data such as Course Over Ground (COG), Speed Over Ground (SOG), and Heading in real-time. All of these readings are powered by the sensors in your device... </p>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
+</body>
 
-
-
-
-  <!-- hasta aqui -->
-
-
-
-</section>
-
-
+</html>
