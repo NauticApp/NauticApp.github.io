@@ -1,3 +1,78 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NauticApp</title>
+<meta name="description" content="NauticApp: a Flutter sailing app published on Google Play from 2020 to 2026, with open-source ESP32 boat sensors (NautiGuard). No longer maintained.">
+<link rel="icon" href="favicon.png">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2d3a; --muted: #5b6b7a; --accent: #138a72;
+    --panel: #f3f6f8; --border: #dde4ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141b22; --fg: #e3e9ee; --muted: #9aa8b5; --accent: #3fd1b2; --panel: #1c252e; --border: #2b3742; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; gap: 20px; align-items: center; margin-bottom: 28px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { margin: 0; font-size: 2rem; }
+  .status { display: inline-block; margin-top: 6px; padding: 2px 10px; border-radius: 999px;
+            background: var(--panel); border: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
+  h2 { font-size: 1.15rem; margin: 36px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--accent); }
+  p { margin: 0 0 12px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .muted { color: var(--muted); }
+  .stack { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+  .stack li { margin: 0; padding: 3px 10px; border-radius: 6px; background: var(--panel); border: 1px solid var(--border); font-size: .9rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; font-size: .9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="img/profile.png" alt="NauticApp icon">
+    <div>
+      <h1>NauticApp</h1>
+      <span class="status">Google Play, 2020–2026 · no longer maintained</span>
+    </div>
+  </header>
+
+  <p>NauticApp was an Android app for sailors, built in Flutter. It brought together the things you check on a small boat: where you are, how you're moving, the weather, the logbook and the engine. It was published on Google Play from 2020 until it was withdrawn in 2026.</p>
+  <p class="muted">This page is kept as a record of the project.</p>
+
+  <h2>What the app did</h2>
+  <ul>
+    <li><strong>Chartplotter.</strong> A Mapbox map showing the boat's live position.</li>
+    <li><strong>Readings and compass.</strong> GPS position, speed over ground (SOG), course over ground (COG) and heading, from the phone's own sensors.</li>
+    <li><strong>Marine weather.</strong> Forecasts with wind speed, direction and conditions, from OpenWeatherMap.</li>
+    <li><strong>Logbook.</strong> Trips recorded with position, speed and notes, stored on the device.</li>
+    <li><strong>Engineering hub.</strong> Engine troubleshooting guides, maintenance schedules and a spare-parts inventory.</li>
+    <li><strong>Safety checks.</strong> Checklists to go through before leaving.</li>
+  </ul>
+
+  <h2>NautiGuard: open-source boat sensors</h2>
+  <p>NautiGuard was the hardware side: small ESP32 devices on the boat's Wi-Fi that the app reads over HTTP.</p>
+  <ul>
+    <li><strong><a href="https://github.com/NauticApp/BilgeMonitor">BilgeMonitor</a></strong> measures the bilge water level with an ultrasonic sensor, switches the bilge pump on automatically and shows the readings in NauticApp. Written in C++ with PlatformIO; the source is on GitHub.</li>
+  </ul>
+
+  <h2>Built with</h2>
+  <ul class="stack">
+    <li>Flutter / Dart</li><li>Riverpod</li><li>Mapbox GL</li><li>SQLite (sqflite)</li>
+    <li>GPS, compass &amp; motion sensors</li><li>OpenWeatherMap API</li><li>fl_chart</li>
+    <li>ESP32 · C++ · PlatformIO</li>
+  </ul>
+
+  <footer>
+    Built by David Coldeira · <a href="https://github.com/dcoldeira">github.com/dcoldeira</a> · © NauticApp 2020–2026
+  </footer>
+</main>
+</body>
+</html>
